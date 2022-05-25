@@ -2,6 +2,7 @@
     padding-top: 43px;
     padding-bottom: 44px;
     background-color: #fff;
+    border-bottom: 2px solid #f0ece8;
 
     &__list {
         display: flex;
@@ -53,7 +54,8 @@
 
     .cart::after {
         display: block;
-        content: "0";
+        content: "o";
+        color: white;
         background-image: url(../images/order.png);
         background-repeat: no-repeat;
         position: absolute;
@@ -86,5 +88,106 @@
     .header__button:hover {
         background-color: black;
         color: white;
+    }
+}
+
+.help {
+    padding-bottom: 212px;
+    padding-top: 208px;
+
+    &--title {
+        width: 535px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 80px;
+        color: $text-color;
+        position: relative;
+        margin-bottom: 16px;
+    }
+
+    &--grid {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        position: absolute;
+        display: block;
+        max-width: 677px;
+        height: 869px;
+        top: 143px;
+    }
+
+    .help--title::after {
+        content: "";
+        position: absolute;
+        width: 140px;
+        display: block;
+        border-top: 4px solid $primary;
+        top: -25px;
+        border-radius: 99999px;
+    }
+
+    &__description {
+        margin-bottom: 43px;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 38px;
+        color: $text;
+        margin-right: 56px;
+    }
+
+    &__btn {
+        cursor: pointer;
+        vertical-align: super;
+        text-align: center;
+        width: 180px;
+        height: 71px;
+        border-radius: 10px;
+        background-color: #ff9c08;
+        color: #090909;
+        border: none;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        transition-duration: 0.3s;
+        margin-right: 28px;
+
+        &--btn {
+            cursor: pointer;
+            width: 225px;
+            height: 73px;
+            border: 1px solid #f0ece8;
+            background-color: $background;
+            box-shadow: 0px 4px 10px rgba(43, 43, 43, 0.04);
+            border-radius: 10px;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 20px;
+            text-align: center;
+            color: $text-color;
+            vertical-align: super;
+        }
+    }
+    .help__btn:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .help__btn--btn:hover {
+        background-color: whitesmoke;
+    }
+
+    .help__btn--btn:active {
+        background-color: whitesmoke;
+        transform: translateY(4px);
     }
 }
