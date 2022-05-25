@@ -240,7 +240,16 @@
     padding-bottom: 200px;
 
     &__title {
-    position: relative; 
+        position: relative;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        color: $primary;
+        margin-bottom: 20px;
     }
 
     .about__title::before {
@@ -251,8 +260,131 @@
         width: 1220px;
         height: 1px;
         left: 0;
-        right: 0; 
-        bottom: 240px; 
-        align-items: flex-start;
+        right: 0;
+        bottom: 240px;
+    }
+
+    &__description {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 58px;
+        margin-bottom: 17px;
+    }
+
+    &__info {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        width: 576px;
+        margin-bottom: 52px;
+    }
+
+    &__btn {
+        cursor: pointer;
+        vertical-align: super;
+        text-align: center;
+        width: 180px;
+        height: 71px;
+        border-radius: 10px;
+        background-color: #ff9c08;
+        color: #090909;
+        border: none;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        transition-duration: 0.3s;
+        margin-right: 28px;
+        position: relative;
+    }
+
+    &--button {
+        width: 153px;
+        height: 73px;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        background: #ffffff;
+        border: 1px solid #f0ece8;
+        box-shadow: 0px 4px 10px rgba(43, 43, 43, 0.04);
+        border-radius: 10px;
+        vertical-align: top;
+    }
+
+    &__buttons {
+        margin-top: 49px;
+        min-width: 365px;
+        min-height: 73px;
+    }
+
+    .about__btn:hover {
+        background-color: black;
+        color: white;
+    }
+
+    &__right {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .child__img {
+        margin-bottom: 32px;
+    }
+
+    .child__two {
+        display: block;
+        margin-left: 28px;
+        margin-top: 174px;
+        width: 560px;
+        height: 749px;
+        margin-bottom: 50px;
+    }
+
+    .about__right--block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    &__txt {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #6e6e6e;
+        margin-left: 40px;
+        margin-bottom: 21px;
+    }
+
+    .confirmed__img {
+        display: inline;
+        padding-right: 10px;
+        max-width: 30px;
+    }
+
+    .confirmed {
+        vertical-align: top;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #090909;
+    }
+
+    .about__confirmed__block {
+        margin-left: 40px;
+        margin-bottom: 20px;
     }
 }
