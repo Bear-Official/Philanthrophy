@@ -1,0 +1,90 @@
+.header {
+    padding-top: 43px;
+    padding-bottom: 44px;
+    background-color: #fff;
+
+    &__list {
+        display: flex;
+    }
+
+    &__items {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    &__links {
+        color: $text-color;
+        padding-right: 26px;
+    }
+
+    &__center {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        display: inline;
+    }
+
+    &__txt {
+        font-size: 28px;
+        margin-right: 40px;
+        vertical-align: super;
+        color: $text-color;
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    &__cart {
+        display: inline;
+        width: 32px;
+        height: 34px;
+        margin-right: 24px;
+        position: relative;
+    }
+
+    .cart::after {
+        display: block;
+        content: "0";
+        background-image: url(../images/order.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        background-color: orange;
+        width: 22px;
+        height: 22px;
+        text-align: center;
+        margin-left: -5px;
+        top: 67px;
+    }
+
+    &__button {
+        cursor: pointer;
+        vertical-align: super;
+        text-align: center;
+        width: 142px;
+        height: 54px;
+        border-radius: 10px;
+        background-color: $primary;
+        color: $text-color;
+        border: none;
+        transition-duration: 0.4s;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .header__button:hover {
+        background-color: black;
+        color: white;
+    }
+}
