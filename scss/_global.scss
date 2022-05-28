@@ -1,6 +1,10 @@
 html, body {
     height: 100%; 
     font-family: 'Roboto', sans-serif;
+} 
+
+body::after {
+  background-image: url("/background-img.jpg");
 }
 
 .wrapper {
