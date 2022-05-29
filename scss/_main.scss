@@ -1736,6 +1736,13 @@
     }
 }
 
+@media (max-width: 730px) {
+    .about__btn,
+    .about--button {
+        display: none;
+    }
+}
+
 @media (max-width: 590px) {
     .video__img {
         width: 500px;
@@ -1886,11 +1893,6 @@
         left: 21%;
     }
 
-    .about__btn,
-    .about--button {
-        display: none;
-    }
-
     .resources__block {
         right: 13.9%;
     }
@@ -1976,7 +1978,8 @@
     }
 
     .about .child__two {
-        margin-left: 0;
+        margin: 0;
+        padding: 0;
     }
 
     .school__img,
@@ -2031,5 +2034,17 @@
     .about__info {
         font-size: 14px;
         width: 200px !important;
+    }
+
+    .results__img {
+        height: 307px !important;
+    }
+
+    .header {
+        border-bottom: none;
+    } 
+
+    .inner__header { 
+        margin-right: -58px !important;
     }
 }
