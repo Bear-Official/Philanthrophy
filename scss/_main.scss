@@ -1769,7 +1769,6 @@
 
     .results--wrapper {
         display: flex;
-        align-items: center;
         flex-direction: column;
         justify-content: center;
         width: auto;
@@ -2016,6 +2015,10 @@
         height: 388px;
     }
 
+    .inner__header {
+        margin-right: -58px !important;
+    }
+
     .resources__block {
         right: -0.1%;
     }
@@ -2042,9 +2045,5 @@
 
     .header {
         border-bottom: none;
-    } 
-
-    .inner__header { 
-        margin-right: -58px !important;
     }
 }
