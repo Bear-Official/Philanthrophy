@@ -1353,7 +1353,7 @@
     .help__img {
         max-width: 360px;
         height: 613px;
-    }
+    } 
 
     .child__two {
         max-width: 390px;
@@ -1369,6 +1369,7 @@
         display: block;
         max-width: 800px !important;
         margin: 0 auto;
+        margin-top: -200px;
     }
 
     .humans__row {
@@ -1416,12 +1417,67 @@
         max-width: 470px !important;
     }
 
+    .testimonials__img {
+        margin-right: 40px;
+    }
+
     .resources__block--second {
         width: 380px;
-        left: 50%;
+        left: 61%;
     }
 
     .resources__block {
-        width: 410px;
+        width: 395px;
+        right: 58%;
     }
-} 
+
+    .video__blocker__two,
+    .video__blocker {
+        margin-top: 40px;
+    }
+
+    .video__sub__text {
+        font-size: 22px;
+    }
+
+    .video__text--right {
+        width: 690px;
+        font-size: 22px;
+    }
+}
+
+.wrap--right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resources--container {
+    justify-content: center;
+}
+
+.footer__donations {
+    width: 452px;
+}
+
+@media (max-width: 1010px) {
+    .help__img {
+        max-width: 300px;
+        height: 590px;
+    }
+
+    .child__two {
+        max-width: 330px;
+        height: 598px;
+    }
+
+    .about .confirmed {
+        font-size: 14px;
+    }
+
+    .results__img {
+        max-width: 330px !important;
+        height: 490px !important;
+    }
+}
