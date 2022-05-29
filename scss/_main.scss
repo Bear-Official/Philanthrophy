@@ -14,6 +14,10 @@
         font-weight: 400;
         font-size: 17px;
         line-height: 30px;
+    } 
+
+    input { 
+        display: none !important;
     }
 
     &__links {
@@ -1715,7 +1719,9 @@
 
     .wrapper__checkbox {
         display: none;
-    }
+    } 
+
+    // Nav bar mobile
 
     .wrapper__checkbox:checked ~ .wrapper__menu {
         right: 0;
