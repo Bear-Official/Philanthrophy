@@ -1619,27 +1619,20 @@
         justify-content: space-around;
     }
 
-    .comunities--container {
-        max-width: 750px !important;
+    .humans__row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
-    .resources__block--second {
-        width: 324px;
-        left: 60%;
+    .humans__block {
+        margin-bottom: 50px;
     }
 
-    .resources__block {
-        width: 320px;
-        right: 58%;
+    .humans__digits {
+        text-align: center;
     }
 
-    .article__img,
-    .resources__img {
-        max-width: 600px !important;
-    }
-}
-
-@media (max-width: 768px) {
     .resources .article__img {
         margin-left: 20px;
         margin-bottom: 120px;
@@ -1659,5 +1652,86 @@
         width: 400px;
         left: 14%;
         margin-top: -200px;
+    }
+
+    .comunities--container {
+        max-width: 750px !important;
+    }
+
+    .resources__block--second {
+        width: 324px;
+        left: 52%;
+    }
+
+    .resources__block {
+        width: 320px;
+        right: 46%;
+    }
+
+    .article__img,
+    .resources__img {
+        max-width: 600px !important;
+    }
+}
+
+@media (max-width: 720px) {
+    .footer--list {
+        padding-left: 55px !important;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 713px) {
+    .nav {
+        display: none;
+    }
+
+    .header__button {
+        display: none;
+    }
+
+    .help__img {
+        top: 868px;
+        width: 400px;
+        height: 560px;
+    }
+
+    .help {
+        padding-bottom: 750px;
+    }
+}
+
+@media (max-width: 758px) {
+    .comunities--container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 650px !important;
+        gap: 0;
+        width: auto !important;
+    }
+
+    .comunities__cart {
+        margin-bottom: 45px;
+    }
+
+    .comunities__text {
+        font-size: 32px;
+    }
+
+    .video__img {
+        width: 600px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 656px) {
+    .video__text--right {
+        width: auto;
+    } 
+
+    .comunities__sub__text { 
+        width: auto;
     }
 }
