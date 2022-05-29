@@ -1635,6 +1635,29 @@
 
     .article__img,
     .resources__img {
-        max-width: 370px !important;
+        max-width: 600px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .resources .article__img {
+        margin-left: 20px;
+        margin-bottom: 120px;
+    }
+
+    .resources--container {
+        flex-wrap: wrap;
+    }
+
+    .resources__block {
+        width: 400px;
+        right: 36%;
+        margin-top: -700px;
+    }
+
+    .resources__block--second {
+        width: 400px;
+        left: 14%;
+        margin-top: -200px;
     }
 }
