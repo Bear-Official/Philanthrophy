@@ -9,7 +9,7 @@
     <meta name="author" content="Bear Official">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -28,7 +28,6 @@
                                 <span class="header__txt">Philanthropy X</span>
                             </a>
                         </picture>
-
                         <div class="wrapper">
                             <input type="checkbox" id="checkbox" class="wrapper__checkbox">
                             <label for="checkbox" class="wrapper__button">
@@ -37,19 +36,17 @@
                                 <span class="wrapper__button-line"></span>
                             </label>
                             <div class="wrapper__menu">
-      
-                                    <ul class="header__list ">
-                                        <li class="header__items">
-                                            <a href="#" class="header__links menu-link">Home</a>
-                                        </li>
-                                        <li class="header__items">
-                                            <a href="#" class="header__links menu-link">About</a>
-                                        </li>
-                                        <li class="header__items">
-                                            <a href="#" class="header__links menu-link">Pages</a>
-                                        </li>
-                                    </ul>
-                                </nav>
+                                <ul class="header__list">
+                                    <li class="header__items">
+                                        <a href="#" class="header__links menu-link">Home</a>
+                                    </li>
+                                    <li class="header__items">
+                                        <a href="#" class="header__links menu-link">About</a>
+                                    </li>
+                                    <li class="header__items">
+                                        <a href="#" class="header__links menu-link">Pages</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -129,42 +126,39 @@
                                 <img src="images/School-img.jpg" alt="" class="school__img">
                             </div>
                         </div>
-
                     </div>
                     <div class="about__buttons">
                         <button class="about__btn" type="submit">Donate now</button>
                         <button class="about--button" type="submit">About us</button>
-                        <div class="about__wrap">
-                            <img src="images/child-2.jpg" alt="" class="child__two">
-                            <p class="about__txt">
-                                Vitae aliquet nec ullamcorper sit amet risus nullam eget felis et netus <br> et
-                                malesuada
-                                fames urna nec tincidunt
-                                praesent
-                                semper feugiat <br> metus aliquam eleifend mi in nulla posuere sollicitudin pretium <br>
-                                aenean
-                                pharetra magna ac placerat.
-                            </p>
-                            <div class="about__confirmed__block">
-                                <img src="images/confirmed.png" alt="icon: confirmed" class="confirmed__img"><span
-                                    class="confirmed">Excepteursint occaecat cupidatat non proident</span>
-                            </div>
-                            <div class="about__confirmed__block">
-                                <img src="images/confirmed.png" alt="icon: confirmed" class="confirmed__img"><span
-                                    class="confirmed">Pellentesque
-                                    elit ullamcorper dignissim</span>
-                            </div>
-                            <div class="about__confirmed__block">
-                                <img src="images/confirmed.png" alt="icon: confirmed" class="confirmed__img"><span
-                                    class="confirmed">Nibh
-                                    mauris
-                                    cursus mattis molestie a iaculis</span>
-                            </div>
+                    <div class="about__wrap">
+                        <img src="images/child-2.jpg" alt="" class="child__two">
+                        <p class="about__txt">
+                            Vitae aliquet nec ullamcorper sit amet risus nullam eget felis et netus <br> et
+                            malesuada
+                            fames urna nec tincidunt
+                            praesent
+                            semper feugiat <br> metus aliquam eleifend mi in nulla posuere sollicitudin pretium <br>
+                            aenean
+                            pharetra magna ac placerat.
+                        </p>
+                        <div class="about__confirmed__block">
+                            <img src="images/confirmed.png" alt="icon: confirmed" class="confirmed__img"><span
+                                class="confirmed">Excepteursint occaecat cupidatat non proident</span>
+                        </div>
+                        <div class="about__confirmed__block">
+                            <img src="images/confirmed.png" alt="icon: confirmed" class="confirmed__img"><span
+                                class="confirmed">Pellentesque
+                                elit ullamcorper dignissim</span>
+                        </div>
+                        <div class="about__confirmed__block">
+                            <img src="images/confirmed.png" alt="icon: confirmed" class="confirmed__img"><span
+                                class="confirmed">Nibh
+                                mauris
+                                cursus mattis molestie a iaculis</span>
                         </div>
                     </div>
 
                 </div>
-
             </div>
         </section>
         <section class="results">
@@ -200,7 +194,7 @@
                                     </span>
                                 </div>
                             </div>
-                            <button class="results__button button__4">Donate now</button>
+                            <button class="help__btn results--btn" type="submit">Donate now</button>
                         </div>
                     </div>
                     <div class="results__blocker">
@@ -216,17 +210,22 @@
                         We have helped over 200 vulnerable <br> communities worldwide
                     </p>
                     <div class="video__buttons">
-                        <button type="submit" class="video__button">Donate now</button>
-                        <button type="submit" class="video__button--second">About our charity</button>
+                        <button class="help__btn video__button" type="submit">Donate now</button>
+                        <button type="submit" class="video__button--second help__btn--btn">About our charity</button>
                     </div>
                 </div>
         </section>
         <section class="video__second">
             <div class="container">
                 <div class="video__wrapper">
-                    <a href="#" class="video__link">
-                        <img src="images/Frame.jpg" alt="iamge: Frame" class="video__img">
-                    </a>
+                    <div class="btnn">
+                        <div class="play"></div>
+                    </div>
+                    <div class="clip">
+                        <video src="mp3" controls></video>
+                        <b class="close">Close</b>
+                    </div>
+                    <img src="images/Frame.jpg" alt="iamge: Frame" class="video__img">
                     <div class="wrap--right wrap--right__two">
                         <div class="video__blocker__two">
                             <h2 class="video__sub__title">The goal and mission behind</h2>
@@ -273,7 +272,7 @@
                             What are we doing to assist <br> these communities?
                         </p>
                     </div>
-                    <button type="submit" class="comunities__button">Donate now</button>
+                    <button type="submit" class="comunities__button help--btn">Donate now</button>
                 </div>
                 <div class="comunities--container">
                     <div class="comunities__cart">
@@ -339,90 +338,105 @@
                         Join us and let’s make a <br> better world, today
                     </p>
                     <div class="comunities--wrapper">
-                        <button class="comunities--button" type="submit">Donate now</button>
-                        <button class="comunities__button--second" type="submit">About our charity</button>
+                        <button class="comunities--button help--btn" type="submit">Donate now</button>
+                        <button class="comunities__button--second help__btn--2" type="submit">About our charity</button>
                     </div>
                 </div>
             </div>
         </section>
         <section class="testimonials">
             <div class="container">
-                <div class="testimonials__wrapper">
-                    <img src="images/girls.jpg" alt="image: girls" class="testimonials__img">
-                    <div class="testimonials__block">
-                        <p class="testimonials__description">
-                            “Ultrices eros in cursus turpis massa <br> tincidunt sem nulla pharetra diam <br> sit amet
-                            nisl
-                            suscipit adipis.”
-                        </p>
-                        <span class="testimonials__name">Amara Onai</span>
-                        <span class="testimonials__city">Citizen of South Africa</span>
-                    </div>
-                    <div class="testimonials__wrap">
-                        <h2 class="testimonials__header">Testimonials</h2>
-                        <p class="testimonials__text">
-                            See how we are <br> making a difference
-                        </p>
-                        <p class="testimonials__sub__text">
-                            Vitae aliquet nec ullamcorper sit amet risus nullam eget felis <br> etolme netus et
-                            malesuada
-                            fames urna
-                            nec tincidunt
-                            praesen
-                        </p>
-                        <div class="testimonials__confirmed__block">
-                            <img src="images/confirmed.png" alt="icon: confirmed" class="confirmed__img"><span
-                                class="testimonials__confirmed">Excepteursint occaecat cupidatat non proident</span>
-                            <div class="about__confirmed__block">
-                                <img src="images/confirmed.png" alt="icon: confirmed" class="confirmed__img"><span
-                                    class="testimonials__confirmed">Pellentesque elit ullamcorper dignissim</span>
+                <div class="testimonials__box">
+                    <div class="testimonials__wrapper">
+                        <div class="resources__item">
+                            <img src="images/girls.jpg" alt="image: girls" class="testimonials__img">
+                            <div class="testimonials__block">
+                                <p class="testimonials__description">
+                                    “Ultrices eros in cursus turpis massa tincidunt sem nulla pharetra diam <br>
+                                    sit amet
+                                    nisl
+                                    suscipit adipis.”
+                                </p>
+                                <span class="testimonials__name">Amara Onai</span>
+                                <span class="testimonials__city">Citizen of South Africa</span>
                             </div>
-                            <div class="about__confirmed__block">
+                        </div>
+                        <div class="testimonials__wrap">
+                            <h2 class="testimonials__header">Testimonials</h2>
+                            <p class="testimonials__text">
+                                See how we are <br> making a difference
+                            </p>
+                            <p class="testimonials__sub__text">
+                                Vitae aliquet nec ullamcorper sit amet risus nullam eget felis <br> etolme netus et
+                                malesuada
+                                fames urna
+                                nec tincidunt
+                                praesen
+                            </p>
+                            <div class="testimonials__confirmed__block">
                                 <img src="images/confirmed.png" alt="icon: confirmed" class="confirmed__img"><span
-                                    class="testimonials__confirmed">Excepteursint occaecat cupidatat non proident</span>
+                                    class="testimonials__confirmed">Excepteursint occaecat cupidatat non
+                                    proident</span>
+                                <div class="about__confirmed__block">
+                                    <img src="images/confirmed.png" alt="icon: confirmed" class="confirmed__img"><span
+                                        class="testimonials__confirmed">Pellentesque
+                                        elit ullamcorper dignissim</span>
+                                </div>
+                                <div class="about__confirmed__block">
+                                    <img src="images/confirmed.png" alt="icon: confirmed" class="confirmed__img"><span
+                                        class="testimonials__confirmed">Excepteursint
+                                        occaecat cupidatat non
+                                        proident</span>
+                                </div>
+                                <button type="submit" class="testimonials__button help--btn">Donate now</button>
                             </div>
-                            <button type="submit" class="testimonials__button">Donate now</button>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
         <section class="resources">
             <div class="container">
-                <div class="resources__wrap">
-                    <span class="resources__text">News & Resources</span>
-                    <h3 class="resources__title">Read our latest news</h3>
-                </div>
-                <div class="resources--container">
-                    <img src="images/article.png" alt="img: article" class="article__img">
-                    <img src="images/resources.png" alt="img: resources" class="resources__img resources--img">
-                </div>
-                <div class="resources__block">
-                    <div class="resources--block__second">
-                        <span class="resources__sup--title">Articles</span>
-                        <span class="resources__date">Feb 11, 2022</span>
+                <div class="resources__box">
+                    <div class="resources__wrap">
+                        <span class="resources__text">News & Resources</span>
+                        <h3 class="resources__title">Read our latest news</h3>
                     </div>
-                    <p class="resources__description">
-                        What to donate to a food bank and <br> what to avoid ?
-                    </p>
-                    <span class="resources__sub__text"> Read <br> more</span>
-                </div>
-                <div class="resources__block--second">
-                    <div class="resources--block__second">
-                        <span class="resources__sup--title">Resources</span>
-                        <span class="resources__date">Feb 11, 2022</span>
+                    <div class="resources__blocks">
+                        <div class="resources__item">
+                            <img src="images/article.png" alt="img: article" class="article__img">
+                            <div class="resources__block">
+                                <div class="resources--block__second">
+                                    <span class="resources__sup--title">Articles</span>
+                                    <span class="resources__date">Feb 11, 2022</span>
+                                </div>
+                                <p class="resources__description">
+                                    What to donate to a food bank and <br> what to avoid ?
+                                </p>
+                                <span class="resources__sub__text"> Read <br> more</span>
+                            </div>
+                        </div>
+                        <div class="resources__item">
+                            <img src="images/resources.png" alt="img: resources" class="resources__img resources--img">
+                            <div class="resources__block--second">
+                                <div class="resources--block__second">
+                                    <span class="resources__sup--title">Resources</span>
+                                    <span class="resources__date">Feb 11, 2022</span>
+                                </div>
+                                <p class="resources__description">
+                                    13 ways to give to charity without <br> breaking your budget
+                                </p>
+                                <span class="resources__sub__text"> Read <br> more</span>
+                            </div>
+                        </div>
                     </div>
-                    <p class="resources__description">
-                        13 ways to give to charity without <br> breaking your budget
-                    </p>
-                    <span class="resources__sub__text"> Read <br> more</span>
                 </div>
                 <div class="resources__buttons">
-                    <button type="submit" class="resources__button">Donate now</button>
-                    <button type="submit" class="resources__btn">Read more news</button>
+                    <button type="submit" class="resources__button help--btn">Donate now</button>
+                    <button type="submit" class="resources__btn help__btn--btn">Read more news</button>
                 </div>
             </div>
         </section>
-
         <footer class="footer">
             <div class="container">
                 <div class="footer--right">
@@ -488,7 +502,7 @@
                                 Join us and let’s make a <br> better world, today
                             <div class="footer__buttons">
                                 <button type="submit" class="footer--btn">Donate now</button>
-                                <button type="submit" class="footer--btn__two">More ways to help</button>
+                                <button type="submit" class="footer--btn__two help__btn--btn">More ways to help</button>
                             </div>
                         </div>
                         </p>
@@ -497,26 +511,23 @@
                 <div class="footer__copyright">
                     <ul class="footer--list">
                         <li class="footer__text">
-                            <a href="#" class="footer__link"> Copyright © Philanthropy X | Designed by</a>
+                            <a href="#" class="footer__link">Copyright © Philanthropy X | Designed by</a>
                         </li>
                         <li class="footer__text">
-                            <a href="#" class="footer__link"> <span class="footer__decoration">BRIX Templates</span></a>
+                            <a href="#" class="footer__link"><span class="footer__decoration">BRIX Templates</span></a>
                         </li>
                         <li class="footer__text">
                             <a href="#" class="footer__link">- Powered by </a>
                         </li>
                         <li class="footer__text">
-                            <a href="#" class="footer__link"> <span class="footer__decoration">Webflow</span></a>
+                            <a href="#" class="footer__link"><span class="footer__decoration">Webflow</span></a>
                         </li>
                     </ul>
                 </div>
-        </footer>
+            </div>
     </div>
-    <script src=" javascript/main.min.js">
-    </script>
+    </footer>
+    <script src=" javascript/main.min.js"></script>
 </body>
 
 </html>
-© 2022 GitHub, Inc.
-Terms
-Privacy
