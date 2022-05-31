@@ -12,3 +12,5 @@ close.onclick = function () {
     clip.classList.remove("active");
     video.pause();
 };
+
+AOS.init();
