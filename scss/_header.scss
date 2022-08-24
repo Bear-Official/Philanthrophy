@@ -2,9 +2,8 @@
     padding-top: 43px;
     padding-bottom: 44px;
     background-color: white;
-    border-bottom: 2px solid #f0ece8; 
+    border-bottom: 2px solid #f0ece8;
     overflow: hidden;
-
 
     &__inner {
         display: flex;
@@ -27,6 +26,7 @@
         font-size: 28px;
         margin-right: 40px;
         vertical-align: super;
+        color: #090909;
     }
 
     &__item {
@@ -41,6 +41,7 @@
         padding-right: 26px;
         transition: all 0.3s;
         font-size: 19px;
+        color: #090909;
 
         &:hover {
             color: #ff9c08;
