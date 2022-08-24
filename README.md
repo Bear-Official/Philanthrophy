@@ -1,1 +1,2 @@
-![screencapture-bear-official-github-io-Philanthrophy-2022-08-24-23_12_59](https://user-images.githubusercontent.com/93325394/186514365-822715f2-0f3b-4c26-a12d-9e4f240954ee.png)
+
+![screencapture-bear-official-github-io-Philanthrophy-2022-08-24-23_17_22](https://user-images.githubusercontent.com/93325394/186515088-c5ab09cd-6280-47cb-b618-855abc52694c.png)
