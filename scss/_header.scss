@@ -1,0 +1,80 @@
+.header {
+    padding-top: 43px;
+    padding-bottom: 44px;
+    background-color: white;
+    border-bottom: 2px solid #f0ece8; 
+    overflow: hidden;
+
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__title {
+        display: inline;
+        font-size: 28px;
+        margin-right: 40px;
+        vertical-align: super;
+    }
+
+    &__item {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    &__link {
+        padding-right: 26px;
+        transition: all 0.3s;
+        font-size: 19px;
+
+        &:hover {
+            color: #ff9c08;
+        }
+    }
+
+    &__logo {
+        display: inline;
+    }
+
+    &__cart {
+        display: inline;
+        width: 32px;
+        height: 34px;
+        margin-right: 24px;
+        position: relative;
+    }
+
+    .cart::after {
+        display: block;
+        content: "o";
+        color: white;
+        background-image: url(../images/order.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        background-color: orange;
+        width: 22px;
+        height: 22px;
+        text-align: center;
+        margin-left: -5px;
+        top: 67px;
+    }
+
+    input {
+        display: none !important;
+    }
+}

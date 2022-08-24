@@ -1,15 +1,26 @@
 // Settings
 @import "vars";
 @import "fonts";
-@import "reset"; 
+@import "reset";
+@import "index"; 
+@import "media";
+
+// Components
+@import "header";
+@import "footer";
+
+// Pages
 @import "index";
 
 html,
 body {
     height: 100%;
+    font-family: "Roboto", sans-serif;  
+    font-weight: 700;
+    scroll-behavior: smooth;
 }
 
 .wrapper {
-    max-width: 1140px;
+    max-width: 1220px;
     margin: 0 auto;
 }
