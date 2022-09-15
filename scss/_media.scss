@@ -112,13 +112,13 @@
 }
 
 @media (max-width: 1120px) {
-    .comunities {
+    .donate {
         &__wrap {
             flex-direction: column !important;
             align-items: center !important;
         }
 
-        &__sub-title {
+        &__title {
             text-align: center !important;
             margin-bottom: 30px;
         }
@@ -976,25 +976,28 @@
 }
 
 @media (max-width: 570px) {
-    .comunities {
+    .donate {
         &__block {
-            flex-direction: column !important;
+            flex-direction: column !important; 
+            margin: auto !important;
         }
 
         &__button {
-            width: 225px !important;
+            width: 100% !important;
             height: 71px !important;
             margin-bottom: 20px !important;
         }
 
-        &__sub-title {
-            font-size: 28px !important;
-            text-align: left !important;
+        &__title {
+            font-size: 26px !important;
+            text-align: left !important; 
+            line-height: 35px !important;  
+            width: auto !important;
         }
 
         &__wrap {
             align-items: flex-start !important;
-            padding-left: 141px;
+            // padding-left: 141px;
         }
     }
 
